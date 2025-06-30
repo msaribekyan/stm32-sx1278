@@ -41,7 +41,7 @@ void WriteReg_Single(SX1278* sx1278, uint8_t Reg, uint8_t Data){
  * @param nss_port SX1278 NSS GPIO port
  * @param nss_pin SX1278 NSS GPIO pin
  *
- * @return SX1278 instance
+ * @return SX1278 instance pointer
  *
  */
 SX1278* SX1278_setup(SPI_HandleTypeDef* hspi, GPIO_TypeDef* nss_port, uint16_t nss_pin){
